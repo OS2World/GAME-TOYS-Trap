@@ -1,0 +1,37 @@
+Written by STEPHANE CHARETTE (root@cyniska.ubishops.ca)
+     using VIRTUAL PASCAL V1 BETA #003
+        on 95JUL31
+
+----------==========----------==========----------==========----------==========
+
+This application (TRAP.EXE) will display a fictitious OS/2 trap message on
+the screen.  To activate, just run TRAP from a command prompt, or click on
+the icon.
+
+----------==========----------==========----------==========----------==========
+
+If you really want to have fun with someone's computer, try the following:
+   1) press ALT-F1 at the start of boot to get to the recovery screen
+   2) choose option 'C' to get to a command prompt
+   3) change to the OS2 subdirectory (cd \os2)
+   4) make a backup of PMSHELL.EXE (copy pmshell.exe pmshell.old)
+   5) replace PMSHELL.EXE by TRAP.EXE (copy pmshell.exe trap.exe)
+   6) exit to reboot (exit)
+
+Now when the system reboots, instead of the WPS starting up, the computer will
+be "trapped"!
+
+----------==========----------==========----------==========----------==========
+
+Note that I am not responsible for real trap errors or corruption which could
+occur through the use of this application.  (ALSO NOTE THAT AS FAR AS I AM
+AWARE, I DO NOT KNOW OF ANY PROBLEMS THIS APPLICATION COULD CAUSE...)  Nor am I
+responsible for users which re-install their entire system because they weren't
+aware that their system was experiencing a "fake" trap.
+
+----------==========----------==========----------==========----------==========
+
+For more information, see the WWW site http://cyniska.ubishops.ca/os2/os2.html.
+
+Stephane Charette.
+
